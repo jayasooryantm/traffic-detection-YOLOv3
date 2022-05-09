@@ -1,2 +1,5 @@
 # traffic-detection-YOLOv3
  
+>Abstract - Emerging autonomous car industry enormously relied on computer vision to detect the traffic and try to improve the precision of detection >continuously. This paper conducted a study on how to improve the object detection algorithm specifically for traffic.
+>A pre-trained deep learning algorithm is used for conducting the experiments. YOLOv3 is an open-source pre-trained model for object detection. This >algorithm is retrained using custom data to find the improvements in the accuracy. Data is collected from open image dataset repository. Model parameters >are changed according to the new dataset and retrained. Apart from all other neural networks, YOLOv3 is preferred for a reason; YOLOv3 detect objects >instantly without trading the accuracy also, retraining the algorithm is less complex.
+>The paper presents the implementation and retraining of YOLOv3 algorithm with custom traffic dataset using OpenCV computer vision library. It explains how >the model is retrained, data is prepared for the algorithm, accuracy obtained after retraining.
